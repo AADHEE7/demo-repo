@@ -1,0 +1,23 @@
+{
+  "plugins": {
+    "swarm": {
+      "enabled": true
+    }
+  },
+  "sidecars": {
+    "swarm/swarm_board": {
+      "projectId": "5a6afa03-4c74-497a-90f3-875c387b7c5b",
+      "resolvedPermissions": {},
+      "schemaVersion": 1
+    }
+  },
+  "userSettings": {
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_AUTO",
+    "enableTerminalSandbox": true,
+    "nonWorkspaceFileAccessPolicy": "AGENT_SETTING_POLICY_ASK",
+    "permissionGrantsV2Migrated": true,
+    "permissionPreset": "AGENT_PERMISSION_PRESET_AUTO",
+    "remoteControlHostname": "laptop-83s4a728-drifting-halo",
+    "sandboxEnabledAtV2Migration": false
+  }
+}
